@@ -1,8 +1,8 @@
 derrotas=empates=vitorias=0
-derrotas=int(imput('Derrotas:'))
-empates=int (imput ("Empates:"))
-vitorias=int(imput("Vitorias:"))
+derrotas=int(input('Derrotas:'))
+empates=int(input ("Empates:"))
+vitorias=int(input("Vitorias:"))
 pontos_ganhos=vitorias*3+empates
 jogos=vitorias+derrotas+empates
 print ("Quantidade de pontos ganhos:{}".format(pontos_ganhos))
-print ("Quantidade de jogos dispoutado:{}".format (jogos))
+print ("Quantidade de jogos dispoutado:{}".format(jogos))
